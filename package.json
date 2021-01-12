@@ -1,0 +1,40 @@
+{
+  "name": "verax-signaling",
+  "version": "0.0.1",
+  "description": "Webrtc signaling client and server",
+  "main": "dist/server.js",
+  "module": "src/server.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnricoSchw/verax-signaling.git"
+  },
+  "keywords": [
+    "p2p",
+    "webrtc",
+    "sinal"
+  ],
+  "author": "enrico schwendig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnricoSchw/verax-signaling/issues"
+  },
+  "homepage": "https://github.com/EnricoSchw/verax-signaling#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/ws": "^7.4.0",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.2"
+  }
+}
